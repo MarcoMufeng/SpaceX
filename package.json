@@ -2,6 +2,7 @@
   "name": "spacex",
   "version": "0.1.0",
   "private": true,
+  "tcs:w": "tsc -w",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,10 +14,19 @@
     "graphql": "^15.5.1",
     "next": "11.0.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-dom": "^5.1.7",
     "eslint": "7.29.0",
-    "eslint-config-next": "11.0.0"
+    "eslint-config-next": "11.0.0",
+    "source-map-loader": "^3.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4"
   }
 }

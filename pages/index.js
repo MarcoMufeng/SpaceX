@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 
 export default function Home( {launches} ) {
-  console.log('launches',launches);
   return (
     <div className={styles.container}>
       <Head>
